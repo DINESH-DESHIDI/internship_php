@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cable Network Dashboard</title>
+</head>
+<style>
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: white;
+  border-right: 1px solid rgb(197, 183, 183);
+  height: auto;
+  padding: 20px;
+}
+
+.sidebar .logo {
+  width: 130px;
+  height: 130px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+
+nav{
+  display: flex;
+
+}
+.sidebar .photo{
+  width: 55px;
+  height: 55px;
+  padding-top: 50px;
+}
+.sidebar h1 {
+  padding: 15px;
+  display: inline-flex;
+  font-size: 30px;
+  color: rgba(68, 68, 242, 0.689);
+  font-weight: bold;
+}
+
+.head {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(243, 243, 243, 0.982);
+  border-bottom: 2px solid rgb(222, 217, 217);
+  width: 102%;
+  border-radius: 0px 7px 7px 0px;
+}
+
+.header h1 {
+  font-size: 29px;
+  color: blue;
+}
+
+.img {
+  width: 70px;
+  height: 70px;
+}
+
+.hello {
+  padding: 20px;
+  background-color: rgba(243, 243, 243, 0.982);
+  border-radius: 5px;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24);
+  width: 100%;
+}
+
+.hello h2 {
+  margin-bottom: 20px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nxttable {
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(243, 243, 243, 0.982);
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.574);
+ 
+}
+
+.nxttable h2 {
+  padding-bottom: 7px;
+}
+
+table {
+  width: 100%;
+  text-decoration: none;
+  border-collapse: separate; 
+  border-spacing: 40px 7px;
+}
+
+thead th {
+  text-align: left;
+  text-decoration: none;
+  padding: 10px;
+}
+
+tbody td {
+  padding: 10px;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+}
+
+.button {
+  background-color: blue;
+  width: 90%;
+  height: 10%;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.button:hover {
+  background-color: lightblue;
+  text-decoration: transparent;
+  color: black;
+}
+
+</style>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <a href="https://connect1.in/" target="_blank"><img class="logo" src="https://connect1.in/connect.jpg" alt="profile"></a>
+      <nav>
+        <a href="#" target="_blank"><img class="photo" src="https://cdn0.iconfinder.com/data/icons/actions-states-essentials-twotone/48/Paul-19-512.png" alt="profile"></a>
+        <a href="#"><h1>User <br> DashBoard</h1></a>
+      </nav>
+  </div>
+
+    <div>
+      <div class="head">
+        <h1>Cable Network</h1>
+        <a href="#" target="_blank"><img class="img" src="https://cdn-icons-png.flaticon.com/512/3781/3781986.png" alt="profile"></a>
+      </div>
+
+      <section class="hello">
+        <h2>Customer Details</h2>
+        <div class="details">
+          <div>
+            <table>
+                <thead>
+                  <tr>
+                    <th>Box ID</th>
+                    <th>Name:</th>
+                    <th>Area:</th>
+                    <th>Phone Number:</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2145766627</td>
+                    <td>Surya</td>
+                    <td>Kendriya</td>
+                    <td>8575748758</td>
+                  </tr>
+                </tbody>
+            </table>
+          </section>
+
+      <section class="nxttable">
+        <h2>Previous Transactions</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>SL No</th>
+              <th>Package</th>
+              <th>Month</th>
+              <th>Date</th>
+              <th>Amount</th>
+              <th>Due</th>
+              <th>Transaction</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>01</td>
+              <td>All Telugu</td>
+              <td>October</td>
+              <td>2023-10-08</td>
+              <td>330</td>
+              <td>0</td>
+              <td><button class="button">Done</button></td>
+            </tr>
+            <tr>
+              <td>02</td>
+              <td>All Telugu</td>
+              <td>November</td>
+              <td>2023-11-05</td>
+              <td>330</td>
+              <td>0</td>
+              <td><button class="button">Done</button></td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>All Telugu</td>
+                <td>December</td>
+                <td>2023-12-04</td>
+                <td>330</td>
+                <td>0</td>
+                <td><button class="button">Done</button></td>
+              </tr>
+              <tr>
+                <td>04</td>
+                <td>All Telugu</td>
+                <td>January</td>
+                <td>2024-01-03</td>
+                <td>330</td>
+                <td>0</td>
+                <td><button class="button">Done</button></td>
+              </tr>
+              <tr>
+                <td>05</td>
+                <td>All Telugu</td>
+                <td>February</td>
+                <td>2024-02-04</td>
+                <td>330</td>
+                <td>0</td>
+                <td><button class="button">Done</button></td>
+              </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
