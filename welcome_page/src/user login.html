@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login Page</title>
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    background-position: left;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 50%;
+    z-index:-100;  
+}
+
+.boxcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 70%;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    color: black;
+    box-shadow: -5px 0px 15px rgba(0, 0, 0, 0.1); /* Right side shadow */
+}
+
+.right h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form label {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+.form input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    gap: 10px;
+}
+
+.login {
+    padding: 12px;
+    font-size: 1rem;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.login:hover {
+    background-color: darkblue;
+}
+
+.register {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.register button {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    border-color: transparent;
+    background: none;
+}
+
+.register button:hover {
+    text-decoration: underline;
+}
+</style>
+<body>
+    <div class="boxcontainer">
+        <div class="left">
+            <video autoplay muted loop>
+                <source src="background video.mp4" type="video/mp4">
+              </video>
+        </div>
+        <div class="right">
+            <h2>User Login</h2>
+            <div class="form">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
+            <button href="https://connect1.in/" class="login" target="_blank">Login</button>
+            <div class="register">
+                <span>Don't have an account? </span>
+                <button id="user_rgt-btn">Register</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script>
+     document.getElementById("user_rgt-btn").addEventListener("click", function () {
+      window.location.href = "user new account.html"; 
+    });
+</script>
+</html> 

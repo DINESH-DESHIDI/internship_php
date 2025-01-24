@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: black;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 5%;
+    z-index:-100;  
+}
+
+    .container {
+        display: flex;
+        width: 80%;
+        height: 100%; 
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-side {
+        background-position: left;
+        width: 73%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .right-side {
+        width: 50%;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%; 
+    }
+
+    h1 {
+        font-size: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 30px;
+        padding-bottom: 60px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .btn {
+        padding: 10px 20px; 
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 45%; 
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto; 
+    }
+
+    .provider-btn {
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+    }
+
+    .user-btn {
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+    }
+
+    .provider-btn:hover, .user-btn:hover {
+        background-color: darkblue;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <video autoplay muted loop>
+                <source src="background video.mp4" type="video/mp4">
+              </video>
+        </div>
+        <div class="right-side">
+            <h1>Bringing You Closer to the World, Right from the Home </h1>
+            <div class="buttons">
+                <button class="btn provider-btn" id="provider-btn">Provider</button>
+                <button class="btn user-btn" id="user-btn" >User</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+     document.getElementById("provider-btn").addEventListener("click", function () {
+      window.location.href = "provider login.html"; 
+    });
+
+    document.getElementById("user-btn").addEventListener("click", function () {
+      window.location.href = "user login.html"; 
+    });
+</script>
+</html>
