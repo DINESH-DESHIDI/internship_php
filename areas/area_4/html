@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mani Cable Network</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+              <a href="https://connect1.in/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTo40uUpLJtWSzB3VEGKmuX2x3zPJSKsfckQ&s" alt="Logo"></a>
+            </div>
+            <div class="sidebaritems">
+              <a href="#" target="_blank" class="items">Close</a>
+              <a href="#" target="_blank" class="items">View all</a>
+              <a href="#"  id="new form1" class="items">New form 1</a>
+              <a href="#"  id="new form2" class="items">form 2</a>
+            </div>
+          </div>
+        <main class="main-content">
+            <div class="topbar">
+                <h2>Mani Cable Network</h2>
+                <input type="text" class="searchbar" placeholder="Search">
+                <div class="profile">
+                 <a href="#" target="_blank" ><img src="https://cdn-icons-png.flaticon.com/512/3781/3781986.png" alt="Profile" class="profile-pic"></a>
+                  <a href="#" target="_blank" class="profile-name">shrig</a>
+                </div>
+              </div>
+            <div class="area">
+                <h3 class="areabar">Area 1</h3>
+            </div>
+            <div class="flex-boxes">
+                <a class="box" href="#">01<br>0</a>
+                <a class="box" href="#">02<br>0</a>
+                <a class="box" href="#">03<br>0</a>
+                <a class="box" href="#">04<br>0</a>
+                <a class="box" href="#">05<br>0</a>
+                <a class="box" href="#">06<br>0</a>
+                <a class="box" href="#">07<br>0</a>
+                <a class="box" href="#">08<br>0</a>
+                <a class="box" href="#">09<br>0</a>
+                <a class="box" href="#">10<br>0</a>
+                <a class="box" href="#">11<br>0</a>
+                <a class="box" href="#">12<br>0</a>
+                <a class="box" href="#">13<br>0</a>
+                <a class="box" href="#">14<br>0</a>
+                <a class="box" href="#">15<br>0</a>
+                <a class="box" href="#">16<br>0</a>
+                <a class="box" href="#">17<br>0</a>
+                <a class="box" href="#">18<br>0</a>
+                <a class="box" href="#">19<br>0</a>
+                <a class="box" href="#">20<br>0</a>
+                <a class="box" href="#">21<br>0</a>
+                <a class="box" href="#">22<br>0</a>
+                <a class="box" href="#">23<br>0</a>
+                <a class="box" href="#">24<br>0</a>
+                <a class="box" href="#">25<br>0</a>
+                <a class="box" href="#">26<br>0</a>
+                <a class="box" href="#">27<br>0</a>
+                <a class="box" href="#">28<br>0</a>
+                <a class="box" href="#">29<br>0</a>
+                <a class="box" href="#">30<br>0</a>
+            </div>
+        </main>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
