@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Form</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTo40uUpLJtWSzB3VEGKmuX2x3zPJSKsfckQ&s" alt="" class="img">
+        </div>
+        <div class="right-side">
+            <div class="title">Mani Cable Network</div>
+            <div class="form-box">
+                <h2>Update Form</h2>
+                <form>
+                    <input class="input" type="text" placeholder="2145766627" required>
+                    <input class="input" type="text" placeholder="all telugu" required>
+                    <select>
+                        <option selected disabled>Select Month</option>
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                    <input class="input" type="date" value="2024-01-03" required>
+                    <input class="input" type="text" placeholder="330" required>
+                    <input class="input" type="text" placeholder="0" required>
+                    <button class="submit" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
