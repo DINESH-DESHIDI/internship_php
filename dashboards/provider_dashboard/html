@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mani Cable Network</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTo40uUpLJtWSzB3VEGKmuX2x3zPJSKsfckQ&s" alt="Logo">
+      </div>
+      <div class="menu">
+        <div class="menu-item"><a href="#" target="_blank">Areas</a></div>
+        <div class="menu-item"><a href="#" target="_blank">Activations</a></div>
+        <div class="menu-item"><a id="request_page" href="#">Requests</a></div>
+        <div class="menu-item"><a href="#" target="_blank">Amount</a></div>
+        <div class="menu-item"><a href="#" target="_blank">Help</a></div>
+        <div class="menu-item"><a href="#" target="_blank">Login</a></div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="topbar">
+        <h2>Mani Cable Network</h2>
+        <input type="text" class="search-bar" placeholder="Search">
+        <div class="profile-section">
+          <img src="https://cdn-icons-png.flaticon.com/512/3781/3781986.png" alt="Profile" class="profile-pic">
+          <span class="profile">shrig</span>
+        </div>
+      </div>
+      <div class="area">
+        <h3>Areas</h3>
+      </div>
+      <div class="content">
+        <div class="card"><a href="#" id="area 1">Area 1</a> </div>
+        <div class="card"><a href="#" id="area 2"> Area 2</a></div>
+        <div class="card"><a href="#" id="area 3">Area 3</a> </div>
+        <div class="card"><a href="#" id="area 4">Area 4</a> </div>
+      </div>
+    </div>
+  </div>
+</body>
+  <script src="script.js"></script>
+</html>
