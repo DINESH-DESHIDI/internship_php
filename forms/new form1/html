@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Customer Form 2</title>
+    <title>New Customer Form 1</title>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
@@ -14,7 +14,7 @@
         <div class="right-side">
             <div class="title">Mani Cable Network</div>
             <div class="form-box">
-                <h2>New Customer Form 2</h2>
+                <h2>New Customer Form 1</h2>
                 <form>
                     <input class="input" type="text" placeholder="Box id" required>
                     <input class="input" type="text" placeholder="Package" required>
