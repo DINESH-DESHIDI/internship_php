@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Page</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="leftpart">
+        <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTo40uUpLJtWSzB3VEGKmuX2x3zPJSKsfckQ&s" alt="">
+    </div>
+    <div class="rightpart">
+        <h1>Mani Cable Network</h1>
+        <div class="box">
+            <h3 class="box_inside">Request for Active</h3>
+        </div>
+        <div class="container">
+            <div class="left_section">
+                <h4 class="form">Box_id</h4>
+                <h4 class="form">Name</h4>
+                <h4 class="form">Area</h4>
+                <h4 class="form">Phone</h4>
+                <h4 class="form">Package</h4>
+                <h4 class="form">Month</h4>
+                <h4 class="form">Date</h4>
+                <h4 class="form">Amount</h4>
+                <h4 class="form">Due</h4>
+            </div>
+            <br>
+            <div class="right_section">
+                <input class="details" type="text" value="23891216">
+                <input class="details" type="text" value="Mani">
+                <input class="details" type="text" value="Kendriya">
+                <input class="details" type="text" value="9010280396">
+                <input class="details" type="text" value="All Telugu">
+                <input class="details" type="text" value="January">
+                <input class="details" type="text" value="03-01-25">
+                <input class="details" type="text" value="330">
+                <input class="details" type="text" value="0">
+                <div class="btn">
+                    <button class="submit-btn" href="#" type="button">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
