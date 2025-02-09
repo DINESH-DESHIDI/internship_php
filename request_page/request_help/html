@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request_help</title>
+</head>
+<body>
+    <div class="leftpart">
+        <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTo40uUpLJtWSzB3VEGKmuX2x3zPJSKsfckQ&s" alt="">
+    </div>
+    <div class="rightpart">
+        <h1>Mani Cable Network</h1>
+        <div class="box">
+            <h3 class="box_inside">Request for Help</h3>
+        </div>
+         <section class="hello">
+            <div class="details">
+              <div>
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Box ID</th>
+                        <th>Name:</th>
+                        <th>Area:</th>
+                        <th>Phone Number:</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>2145766627</td>
+                        <td>Surya</td>
+                        <td>Kendriya</td>
+                        <td>8575748758</td>
+                      </tr>
+                    </tbody>
+                </table>
+                  <div class="space">
+                    <table>
+                        <thead>
+                          <tr>
+                            <th>S.No</th>
+                            <th>Package</th>
+                            <th>Month</th>
+                            <th>Date</th>
+                            <th>Amount</th>
+                            <th>Due</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>2</td>
+                            <td>Kids Pack Special</td>
+                            <td>March</td>
+                            <td>2024-11-14</td>
+                            <td>100</td>
+                            <td>0</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                  </div>
+    </div>
+</body>
+</html>
