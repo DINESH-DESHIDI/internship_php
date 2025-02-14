@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mani Cable Network</title>
+</head>
+<body>
+    <div class="leftpart">
+        <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTo40uUpLJtWSzB3VEGKmuX2x3zPJSKsfckQ&s" alt="">
+    </div>
+    <div class="rightpart">
+        <h1>Mani Cable Network</h1>
+        <div class="box">
+            <h5>Paid Report</h5>
+            <div class="chart">
+                <div class="y-axis">
+                    <span>1400</span>
+                    <span>1000</span>
+                    <span>600</span>
+                    <span>200</span>
+                    <span>0</span>
+                </div>
+                <div class="barsettings" style="height: 20%;">
+            
+                </div>
+                <div class="bar" style="height: 80%;">
+                    
+                </div>
+                <div class="bar" style="height: 70%;">
+                    
+                </div>
+            </div>
+            <div class="x-axis">
+                <div >December</div>
+                <div>November</div>
+                <div>October</div>
+            </div>
+        </div>
+        <div class="box">
+            <h5>Due Report</h5>
+            <div class="chart2">
+                <div class="y-axis">
+                    <span>1400</span>
+                    <span>1000</span>
+                    <span>600</span>
+                    <span>200</span>
+                    <span>0</span>
+                </div>
+                
+                <div class="bar2" style="height: 80%;">
+                    
+                </div>
+            </div>
+            <div class="x-axis2">
+                <div>December</div>
+                <div>November</div>
+                <div>October</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
