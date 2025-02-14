@@ -2,6 +2,10 @@
       window.location.href = "request_page.html"; 
     });
 
+ document.getElementById("amount_page").addEventListener("click", function () {
+      window.location.href = "amount_page.html"; 
+    });
+
   document.getElementById("area 1").addEventListener("click", function () {
       window.location.href = "area_1.html"; 
     });
